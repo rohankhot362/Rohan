@@ -23,7 +23,7 @@ public class Assignment1 {
 		for(int i=1; i>0;) {
 			WebElement next= driver.findElement(By.xpath("//span[@style='display:block;margin-left:53px']"));
 			next.click();
-			
+			//adsd
 			
 		}
 		  
