@@ -24,6 +24,10 @@ public class Assignment3 {
 	 
 	WebElement txt= driver.findElement(By.xpath("//td[@class='aboutCopyright']"));
 	System.out.println(txt.getText());
+	
+	
+	
+	//git
 	}
 
 }
