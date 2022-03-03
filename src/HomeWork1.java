@@ -11,7 +11,7 @@ import org.zeromq.ZStar.Set;
 
 public class HomeWork1 {
 	public static void main(String[] args) throws InterruptedException {
-		  System.setProperty("webdriver.chrome.driver","software/chromedriver.exe" );	
+		  System.setProperty("webdriver.chrome.driver","software/chromedriver2.exe" );	
 		  WebDriver driver = new ChromeDriver();
 		  driver.manage().window().maximize();
 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10)); 

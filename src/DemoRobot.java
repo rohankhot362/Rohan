@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class DemoRobot {
 	public static void main(String[]args) throws InterruptedException, AWTException {
-		System.setProperty("webdriver.chrome.driver", "./software/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./software/chromedriver3.exe");
 	  WebDriver driver = new ChromeDriver();
 	  driver.manage().window().maximize();
 	  driver.get("https://www.google.co.in/");
